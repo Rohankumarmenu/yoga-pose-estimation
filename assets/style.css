@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+canvas {
+  display: block;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-family: 'Slabo 13px', sans-serif;
+  font-size: 14px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h4, h3 {
+  font-size: 1.2rem;
+}
+
+footer {
+  padding: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+p {
+  text-align: left;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+p.feedback-description {
+  text-align: center;
+  font-size: large;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+.yoga-title {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  font-size: 2rem;
+  line-height: 65px;
+  text-align: center;
+  margin: 0 auto 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 30px;
+  background-color: #ce3635;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #b03231;
+}
+
+.row-poses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.column-poses {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  background-size: cover;
+}
+
+.pose-description {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-gap: 10px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.sketch-holder {
+  margin: auto;
+}
+
+.trainer-model {
+  padding-top: 20%;
+  margin: auto;
+}
+
+.feedback {
+  margin: auto;
+  max-width: 500px;
+}
+
+.homepage-btn {
+  margin: auto;
+}
+
+.yoga-header {
+  margin: auto;
+}
+
+.start-yoga {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.accuracy {
+  margin: auto;
+  text-align: center;
+  font-size: 5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  /* styles for tablets and larger screens */
+  .button {
+    width: 50%;
+  }
+
+  .yoga-title {
+    width: 50%;
+  }
+
+  .row-poses {
+    padding: 40px;
+  }
+
+  .column-poses {
+    max-width: none;
+  }
+
+  .feedback {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* styles for desktop screens */
+  
+}
